@@ -25,7 +25,7 @@ inline uint8_t getAlign(std::string_view text) {
 unsigned long last = 0;
 WiFiServer server(SERVER_PORT);
 
-BayIndicator display1 = BayIndicator(D4, D5, D3);
+BayIndicator display1 = BayIndicator(D4, D3, D5);
 BayIndicator display2 = BayIndicator(D9, D8, D10);
 
 DotWidget widget1(&display1);
